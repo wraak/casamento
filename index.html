@@ -1,29 +1,172 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
-    
-    <title>index</title>
-    
-	<!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="style-skillslisting.css" rel="stylesheet"/>
-	
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-	<div class="container">
+	<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title>Casamento Rodrigo e Tatiana</title>
+			<meta charset="UTF-8" content="">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+			<link href="includes/css/style.css" rel="stylesheet"/>
+		</head>
+		<body ng-app="casamento">
+			<div class="container">
+				<div class="navbar navbar-fixed-top navbar-default">
+					<div class="container">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				         </button>
+						 <a class="navbar-brand" href="#">Tati e Rodrigo</a> 
+						
+						<div class="navbar-collapse collapse navbar-responsive-collapse">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="#">HOME</a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">CASAMENTO <strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Nossa História</a>										
+										</li>
+										<li>
+											<a href="#">Família</a>										
+										</li>
+										<li>
+											<a href="#">Padrinhos</a>										
+										</li>
+										<li>
+											<a href="#">Fornecedores</a>										
+										</li>	
+										<li class="divider"/>
+										<li class="dropdown-header">O GRANDE DIA</li>
+										<li>
+											<a href="#">Local</a>										
+										</li>
+										<li>
+											<a href="#">Traje</a>										
+										</li>
+										<li>
+											<a href="#">Acomodação</a>										
+										</li>
+										<li>
+											<a href="#">Confirme a Presença</a>										
+										</li>					
+									</ul>
+								</li>
+								<li>
+									<a href="#">VARAL</a>
+								</li>
+								<li>
+									<a href="#">CONTRIBUA</a>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-user"></span> MINHA CONTA</a>
+								</li>
+							</ul>
+						</div> <!-- end nav-collapse> -->
+					</div>				
+				</div> <!-- end navbar -->
 
+				<!-- starting carousel -->
+				<div id="carousel-home" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+				    	<li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+				    	<li data-target="#carousel-home" data-slide-to="1"></li>
+				    	<li data-target="#carousel-home" data-slide-to="2"></li>
+				    	<li data-target="#carousel-home" data-slide-to="3"></li>
+				    	<li data-target="#carousel-home" data-slide-to="4"></li>			    
+				  	</ol>
+				 
+				  	<!-- Wrapper for slides -->
+				  	<div class="carousel-inner">
+					    <div class="item active" id="slide1">
+					     	<img src="http://placehold.it/1200x400" alt="foto-1-rodrigo-tati">
+					     	<div class="carousel-caption">
+					      		<h4>foto-1-rodrigo-tati</h4>
+					      		<p>descrição foto-1-rodrigo-tati</p>
+					      	</div>
+					    </div>
+					    <div class="item" id="slide2">
+					    	<img src="http://placehold.it/1200x400" alt="foto-2-rodrigo-tati">
+						    <div class="carousel-caption">
+						    	<h4>foto-2-rodrigo-tati</h4>
+						    	<p>descrição foto-2-rodrigo-tati</p>
+						    </div>
+					    </div>
+					    <div class="item" id="slide3">
+					    	<img src="http://placehold.it/1200x400" alt="foto-3-rodrigo-tati">
+					    	<div class="carousel-caption">
+					    		<h4>foto-3-rodrigo-tati</h4>
+					    		<p>descrição foto-3-rodrigo-tati</p>
+					      	</div>
+					    </div>
+					    <div class="item" id="slide4">
+					    	<img src="http://placehold.it/1200x400" alt="foto-4-rodrigo-tati">
+					     	<div class="carousel-caption">
+					      		<h4>foto-4-rodrigo-tati</h4>
+					      		<p>descrição da foto-4-rodrigo-tati</p>
+					      	</div>
+					    </div>
+					    <div class="item" id="slide5">
+					    	<img src="http://placehold.it/1200x400" alt="foto-5-rodrigo-tati">
+					     	<div class="carousel-caption">
+					      		<h4>foto-5-rodrigo-tati</h4>
+					      		<p>descrição foto-5-rodrigo-tati</p>
+					      	</div>
+					    </div>
+					</div>
+				 
+				  	<!-- Controls -->
+				  	<a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev">
+				    	<span class="glyphicon glyphicon-chevron-left"></span>
+				 	</a>
+				  	<a class="right carousel-control" href="#carousel-home" role="button" data-slide="next">
+				    	<span class="glyphicon glyphicon-chevron-right"></span>
+				  	</a>
+				</div> <!-- Carousel -->
 
+				<div class="row">
+					<div class="col-xs-12 col-md-6" id="welcome-profile">
+						<div class="well">
+							<a href="#" class="thumbnail">
+								<img src="images/profile/rodrigo.jpg" alt="imagem-perfil-rodrigo"/>
+							</a>
+						</div>	
+					</div>
+					<div class="col-xs-12 col-md-6" id="welcome-profile">
+						<div class="well">
+							<a href="#" class="thumbnail">
+								<img src="images/profile/tati.jpg" alt="imagem-perfil-tati"/>
+							</a>
+						</div>		
+					</div>
+				</div>
 
-	</div>
-</body>
-</html>
+				<div class="row">
+					<div class="col-xs-12" id="home-welcome">
+						<div class="well">
+							<h1>A fancy header <small>A subheader for extra awesome.</small></h1>
+							<p class="lead">Use esta área para fazer qualquer merda</p>
+							<a href="" class="btn btn-large btn-primary">Click</a>
+						</div>
+					</div>
+				</div>
+
+			</div> <!-- end main container -->
+			
+			<footer></footer> 
+			<!-- end of footer -->
+			
+			<script src="jquery/jquery-1.12.4.min.js"></script>
+			<script src="bootstrap/js/bootstrap.min.js"></script>
+			<script src="angular/angular.min.js"></script>
+			<script src="includes/js/angular.js"/></script>
+			
+		</body>
+	</html>

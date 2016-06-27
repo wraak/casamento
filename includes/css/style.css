@@ -1,0 +1,138 @@
+/* ------------------------------------------
+   Customizações do Carousel 
+   ------------------------------------------ */
+
+#carousel-home {
+	margin-top: 60px;
+}
+
+#container {
+	border-color: black;
+	border-style: solid;
+}
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption {
+	font-size: 32px;
+}
+
+#carousel-home .item {
+	height: 300px;
+}
+
+/*  assim que chegarem as imagens eu adiciono aqui 
+
+#slide1 {
+	background: url('../../images/rodrigo-tati-med-01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/rodrigo-tati-med-02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/rodrigo-tati-med-03.jpg') top center no-repeat;
+}
+
+#slide4 {
+	background: url('../../images/rodrigo-tati-med-04.jpg') top center no-repeat;
+}
+
+#slide5 {
+	background: url('../../images/rodrigo-tati-med-05.jpg') top left no-repeat;
+} */
+
+/* ------------------------------------------
+   Customizações da Home
+   ------------------------------------------ */
+
+#home-welcome {
+	text-align: center;
+}
+
+/* ------------------------------------------
+   Media Queries Portrait & Landscape Phone
+   ------------------------------------------ */
+
+@media (max-width: 480px) {
+
+}
+
+/* ------------------------------------------
+   Media Queries Landscape Phone to Portrait Table
+   ------------------------------------------ */
+
+@media (max-width: 768x) {
+	
+	#carousel-home .item {
+		height: 310px;
+	}
+
+	/*  assim que chegarem as imagens eu adiciono aqui 
+
+	#slide1 {
+		background: url('../../images/rodrigo-tati-small-01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/rodrigo-tati-small-02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/rodrigo-tati-small-03.jpg') top center no-repeat;
+	}
+
+	#slide4 {
+		background: url('../../images/rodrigo-tati-small-04.jpg') top center no-repeat;
+	}
+
+	#slide5 {
+		background: url('../../images/rodrigo-tati-small-05.jpg') top left no-repeat;
+	} */
+}
+
+/* ------------------------------------------
+   Media Queries Large Desktop
+   ------------------------------------------ */
+
+@media (min-width: 1200px) {
+
+	#carousel-home .item {
+		height: 380px;
+	}
+
+	/*  assim que chegarem as imagens eu adiciono aqui 
+
+	#slide1 {
+		background: url('../../images/rodrigo-tati-large-01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../../images/rodrigo-tati-large-02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../../images/rodrigo-tati-large-03.jpg') top center no-repeat;
+	}
+
+	#slide4 {
+		background: url('../../images/rodrigo-tati-large-04.jpg') top center no-repeat;
+	}
+
+	#slide5 {
+		background: url('../../images/rodrigo-tati-large-05.jpg') top left no-repeat;
+	}
+	
+	*/
+}
+
+/* ------------------------------------------
+   Global Styles 
+   ------------------------------------------ */
+
+.well {
+	margin: 20px 0;
+}
+
