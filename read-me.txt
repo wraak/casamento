@@ -1,0 +1,18 @@
+ <div ng-view></div>
+
+diretivas importantes 
+- ng-repeat=name in names (lista como for each para usar no varal) $scope.names : [ '',','' ]
+- ng pluralize
+
+service (tudo que será utilizado em vários controllers e alimentará o controller)- controller - view
+
+remover o que puder da view para performance é melhor
+
+ in the end: 
+ https://scotch.io/tutorials/pretty-urls-in-angularjs-removing-the-hashtag
+ adicionar GA
+ arquivo de locale angular
+ currency filters
+ angular translate
+ no final setar um webserver para o chrome nao dar xmlhttprequest error
+ no futuro trocar o ng-route pelo ui-router

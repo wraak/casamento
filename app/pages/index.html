@@ -1,0 +1,104 @@
+	<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<title>Casamento Rodrigo e Tatiana</title>
+			<meta charset="UTF-8" content="">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+			<link href="../css/bootstrap.min.css" rel="stylesheet"/>
+			<link href="../css/bootstrap-journal-min.css" rel="stylesheet"/>
+			<link href="../css/style.css" rel="stylesheet"/>
+			<base href="/" />
+		</head>
+		<body ng-app="casamento">
+			<div class="container">
+				<div class="navbar navbar-fixed-top navbar-default">
+					<div class="container">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							<span class="sr-only">Toggle navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				         </button>
+						 <a class="navbar-brand" href="#"><strong>Tati e Rodrigo</strong></a> 
+						
+						<div class="navbar-collapse collapse navbar-responsive-collapse">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="/home">HOME</a>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">CASAMENTO <strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="/odia">Nossa História</a>										
+										</li>
+										<li>
+											<a href="/odia">Família</a>										
+										</li>
+										<li>
+											<a href="/odia">Padrinhos</a>										
+										</li>
+										<li>
+											<a href="/odia">Fornecedores</a>										
+										</li>	
+										<li class="divider"/>
+										<li class="dropdown-header">O GRANDE DIA</li>
+										<li>
+											<a href="/odia">Local</a>										
+										</li>
+										<li>
+											<a href="/odia">Traje</a>										
+										</li>
+										<li>
+											<a href="/odia">Acomodação</a>										
+										</li>
+										<li>
+											<a href="/odia">Confirme a Presença</a>										
+										</li>					
+									</ul>
+								</li>
+								<li>
+									<a href="/varal">VARAL</a>
+								</li>
+								<li>
+									<a href="/home">CONTRIBUA</a>
+								</li>
+								<li>
+									<a href="/contato">CONTATO</a>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-user"></span> MINHA CONTA</a>
+								</li>
+							</ul>
+						</div> <!-- end nav-collapse> -->
+					</div>				
+				</div> <!-- end navbar -->
+
+				<div ng-view></div>
+
+
+			</div> <!-- end main container -->
+			
+			<footer class="footer-basic-centered">
+				<p class="footer-company-motto">Rodrigo Gianotto e Tatiana Moneró Wedding <span class="glyphicon glyphicon-heart"></span> 15/04/2017</p>
+				<p class="footer-company-name">Projeto desenvolvido por: Rodrigo Gianotto &copy; 2017</p>
+				<p class="footer-links">
+					<a href="#">Home</a>·
+					<a href="#">Varal</a>·
+					<a href="#">Contribua</a>·
+				</p>
+			</footer>
+			<!-- end of footer -->
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="../lib/bootstrap.min.js"></script>
+			<script src="../lib/angular.min.js"></script>
+			<script src="../lib/angular-route.min.js"></script>
+			<script src="../js/app.js"></script>
+			<script src="../js/controllers/controllers.js"/></script>
+			
+		</body>
+	</html>
